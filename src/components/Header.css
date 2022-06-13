@@ -1,0 +1,25 @@
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c34;
+    height: 40px;
+    color: whitesmoke;
+    align-items: center;
+}
+.header_logo{
+    padding: 5px;
+    
+}
+.header_logo img{
+    width: 30px;
+    height: 30px;
+}
+.header_date{
+    padding: 8px;
+}
+@media screen and (max-width: 786px){
+    .header_date{
+        display: none;
+    }
+}
